@@ -1,0 +1,20 @@
+{
+  "name": "get-data-from-xml",
+  "version": "1.0.0",
+  "description": "Command Line Tools xml to Json",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "build": "git add . && git commit -m \"push dengsn package\" && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "yudibilly",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
+    "readline": "^1.3.0",
+    "xml2js": "^0.6.2"
+  }
+}
